@@ -1,0 +1,19 @@
+{
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:SQLite_TypeScript}/ZKTimeNet.db",
+      "name": "STV",
+      "group": "STV"
+    },
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:SQLite_TypeScript}/test.db",
+      "name": "test",
+      "group": "test"
+    }
+  ]
+}
